@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 100px 100px;
+  gap: 80px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #7b4ae2;
+  padding: 30px 30px;
+  width: 350px;
+  height: 320px;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+}
+.card .card-item:hover {
+  transform: scale(1.08);
+  border: none;
+  border: 2px solid coral;
+  background: rgba(123, 74, 226, 0.1);
+}
+.card-item > img {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  margin-left: 30px;
+  cursor: pointer;
+  border: 2px solid #7b4ae2;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+.card-item > span {
+  font-size: 20px;
+  cursor: pointer;
+}
+.card-item > h2 {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/*Working now*/
+.working-now {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 100px;
+  margin-bottom: 100px;
+  background: rgba(123, 74, 226, 0.1);
+  padding: 40px 18px;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+}
+.working-now > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.working-now > div > span {
+  color: #7b4ae2;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.working-now > div > h2 {
+  color: #7b4ae2;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.working-now:hover {
+  transform: scale(1.05);
+}

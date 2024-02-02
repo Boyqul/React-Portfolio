@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.technology {
+  margin: 0 100px;
+  margin-bottom: 100px;
+}
+.technology-title {
+  text-align: center;
+}
+.technology-title > button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: rgba(123, 74, 226, 0.1);
+  color: #7b4ae2;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.technology-title button:hover {
+  transform: scale(1.03);
+}
+.technology-title > h1 {
+  margin-top: 40px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.technology-head {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+.technology-head > * {
+  cursor: pointer;
+}

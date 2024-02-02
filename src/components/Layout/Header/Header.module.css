@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 0 100px;
+}
+.header-title > button {
+  border-radius: 16px;
+  background: rgba(123, 74, 226, 0.1);
+  width: 160px;
+  height: 45px;
+  flex-shrink: 0;
+  color: #7b4ae2;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  outline: 1px solid transparent;
+  cursor: pointer;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.header-title > button:hover {
+  transform: scale(1.05);
+}
+.header-title > h1 {
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.header-title > h5 {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.header-title > h5 > span {
+  color: #7b4ae2;
+  cursor: pointer;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.header-links > img {
+  width: 45px;
+  transition: all 0.1s linear;
+}
+.person-img > img {
+  width: 510.296px;
+  height: 510.296px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 13px solid #7b4ae2;
+}
+.header-links > img:hover {
+  transform: scale(1.1);
+}
+
+/*Animation*/
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: 0.5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.person-img:hover img {
+  opacity: 0.3;
+}
+.person-img:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: #7b4ae2;
+  opacity: 0.9;
+  color: white;
+  font-size: 20px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}

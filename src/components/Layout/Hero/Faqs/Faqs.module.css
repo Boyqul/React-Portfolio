@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.Faqs {
+  margin: 0 100px;
+  margin-bottom: 100px;
+}
+.Faqs-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Faqs-title > button {
+  background: rgba(123, 74, 226, 0.1);
+  color: #7b4ae2;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  outline: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin-bottom: 20px;
+}
+.Faqs-title h1 {
+  font-size: 40px;
+  cursor: pointer;
+}
+.Faqs-title button:hover {
+  transform: scale(1.05);
+}
+.Faqs-head {
+  margin: 0 300px;
+}
+.Faqs-head-title {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.Faqs-head-title .left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid cyan;
+  padding: 10px 20px;
+  width: 400px;
+  height: 130px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 10px;
+}
+.Faqs-head-title .left:hover,
+.right:hover {
+  transform: scale(1.05);
+}
+.Faqs-head-title > .left h3,
+.right h3 {
+  font-size: 28px;
+  color: cyan;
+}
+.Faqs-head-title .left span,
+.right span {
+  font-size: 18px;
+  color: cyan;
+}

@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.portfolio {
+  margin: 0 100px;
+  margin-bottom: 200px;
+}
+.portfolio-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.portfolio-title .left > button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 22px;
+  background: rgba(123, 74, 226, 0.1);
+  color: #7b4ae2;
+  font-size: 18px;
+  border: none;
+  outline: 1px solid transparent;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.portfolio-title .left button:hover {
+  background-color: rgba(58, 12, 157, 0.1);
+  border: 2px solid cyan;
+  transform: scale(1.05);
+}
+.portfolio-title .left h1 {
+  font-size: 40px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.right > button {
+  padding: 13px 30px;
+  font-size: 16px;
+  background: rgba(123, 74, 226, 0.1);
+  color: cyan;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid cyan;
+  transition: all 0.2s linear;
+}
+.right button:hover {
+  transform: scale(1.08);
+  border: 3px dashed cyan;
+}

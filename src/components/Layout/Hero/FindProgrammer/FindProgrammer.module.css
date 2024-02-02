@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.find-job {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px;
+  margin-bottom: 100px;
+}
+.find-job-img > img {
+  width: 454px;
+  height: 454px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid #7b4ae2;
+}
+.span-btn {
+  color: #7b4ae2;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 16px;
+  background: rgba(123, 74, 226, 0.1);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s linear;
+}
+.span-btn:hover {
+  transform: scale(1.05);
+}
+.find-job-title > h1 {
+  width: 663px;
+  height: 114px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.about-me {
+  padding: 10px 20px;
+  width: 150px;
+  color: #7b4ae2;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: rgba(123, 74, 226, 0.1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.footer-navbar {
+  display: flex;
+  align-items: center;
+  padding: 30px 100px;
+  margin-top: 100px;
+  justify-content: space-between;
+  background: rgba(123, 74, 226, 0.1);
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.title > span {
+  cursor: pointer;
+  font-size: 17px;
+}
+.links > img {
+  width: 40px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.links > img:hover {
+  transform: translateY(-10px);
+}

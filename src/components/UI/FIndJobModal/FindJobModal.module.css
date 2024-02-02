@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.find-modal-container {
+  margin: 30px 100px;
+  background-color: #603eab;
+  margin: 30px 50px;
+  margin-top: -500px;
+  margin-left: 350px;
+  width: 800px;
+  height: 340px;
+  border-radius: 20px;
+}
+.find-modal-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5409f6;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.find-job-head {
+  margin: 20px 50px;
+}
+.find-job-head > h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.find-job-head > p {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  width: 680.754px;
+  height: 279.706px;
+  transform: rotate(-0.033deg);
+  flex-shrink: 0;
+}
+.find-body {
+  background-color: #563995;
+}

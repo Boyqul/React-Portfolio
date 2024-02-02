@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin: 0 100px;
+  margin-top: 100px;
+}
+.card-item {
+  background: rgba(123, 74, 226, 0.1);
+  padding: 40px 20px;
+  border-radius: 10px;
+  border: 2px solid #7b4ae2;
+  transition: all 0.3s linear;
+}
+.card-item:hover {
+  transform: scale(1.04);
+}
+
+.card-item h4 {
+  margin-bottom: 20px;
+  color: cyan;
+  cursor: pointer;
+}
+.card-item > p {
+  color: rgb(158, 239, 239);
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.card-item-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #7b4ae2;
+}
+.card-item-body > span {
+  cursor: pointer;
+  font-size: 17px;
+}
